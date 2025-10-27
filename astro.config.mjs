@@ -7,7 +7,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
                  //记得修改,和robots一样
-const SITE_URL = 'https://dh.zywe.de';
+const SITE_URL = 'https://tksun14.edgeone.app';
 const sitemapConfig = {
   filter: (page) => {
     const excludedPaths = [
